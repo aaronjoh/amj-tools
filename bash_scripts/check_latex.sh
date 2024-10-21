@@ -40,6 +40,7 @@ grep --color='auto' -n -e '{\\em ' -e'{ \\em ' -e '{  \\em ' -e '\\emph{ ' -e '\
 grep --color='auto' -n -e '\\textit{' $files || true
 grep --color='auto' -n '[,)][[:alpha:]]' $files || true
 grep --color='auto' -n '[[:alpha:]](' $files || true
+grep --color='auto' -n '[[:alpha:]]\\cite' $files || true
 
 cd ..
 rm -rf __tmp

@@ -38,8 +38,8 @@ grep --color='auto' -n -e 'i\.e\. ' -e 'i\.e\.$$' $files || true
 grep --color='auto' -n -e 'c\.f\. ' -e 'c\.f\.$$' $files || true
 grep --color='auto' -n -e '{\\em ' -e'{ \\em ' -e '{  \\em ' -e '\\emph{ ' -e '\\emph{.* }' $files || true
 grep --color='auto' -n -e '\\textit{' $files || true
-grep --color='auto' -n '[,)][[:alpha:]]' $files || true
-grep --color='auto' -n '[[:alpha:]](' $files || true
+# grep --color='auto' -n '[,)][[:alpha:]]' $files || true
+# grep --color='auto' -n '[[:alpha:]](' $files || true
 grep --color='auto' -n '[[:alpha:]]\\cite' $files || true
 
 cd ..

@@ -1,4 +1,4 @@
-#!python
+#!/usr/bin/python
 # Originally from:
 # https://github.com/rpmcruz/dup-bibtex/blob/main/dups.py
 # Pass in one or more .bib files and compares the title field for similar titles

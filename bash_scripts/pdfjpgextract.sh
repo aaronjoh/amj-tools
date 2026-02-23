@@ -11,5 +11,5 @@ fi
 
 for ARG in "$@"; do
     echo "${ARG%.*}"
-    pdfimages.exe -all "$ARG" "${ARG%.*}"
+    pdfimages -all "$ARG" "${ARG%.*}"
 done
